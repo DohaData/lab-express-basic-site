@@ -39,6 +39,14 @@ li {
   margin-top: 1rem;
 }
 
+#navbar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
 #navbar {
   display: flex;
   justify-content: center;
@@ -76,7 +84,6 @@ li {
 }
 
 #hero-section {
-  margin-top: 10vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -133,7 +140,6 @@ li {
 }
 
 #team-containers {
-  margin-top: 10vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -147,9 +153,8 @@ li {
 }
 
 #works-container {
-  margin-top: 10vh;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   height: 100vh;
   flex-direction: column;
